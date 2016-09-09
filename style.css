@@ -1,0 +1,89 @@
+@import 'https://fonts.googleapis.com/css?family=Crete+Round|Poppins';
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+.mainnav{
+  display: flex;
+  padding: 1rem 2rem;
+  background: rgba(0, 0, 0, 0.6);
+
+}
+
+
+@media screen and (min-width: 320px) {
+  .logo img{
+    width: 10rem;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .mainnav a{
+    width: 100%;
+    text-decoration:none;
+    color: white;
+    padding: 0.75rem;
+  }
+    .mainnav li a:hover{
+    border:2px solid rgba(255, 255, 255, 0.9);
+    }
+  .mainnav{
+    flex-flow: column nowrap;
+
+    }
+  .mainnav ul{
+  width: 100%;
+  display: flex;
+  list-style: none;
+  flex-flow: column nowrap;
+  text-align: center;
+  margin-top: 1rem;
+  }
+  .mainnav li{
+  margin: 1rem 0;
+  letter-spacing: 3px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.7rem;
+
+}
+}
+
+
+@media screen and (min-width: 900px) {
+
+
+.logo img {
+  width: 11.5rem;
+  margin: 0;
+}
+
+.mainnav{
+  flex-flow: row nowrap;
+}
+
+.mainnav a{
+  width: 60%;
+
+
+}
+
+.mainnav ul{
+width: 40%;
+flex-flow: row nowrap;
+align-self: flex-end;
+margin: 0;
+}
+
+
+.mainnav li{
+justify-content: space-around;
+align-items: flex-end;
+padding: 0;
+width: 100%;
+
+}
+}
