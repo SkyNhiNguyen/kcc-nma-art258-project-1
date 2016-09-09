@@ -8,9 +8,11 @@
 
 
 .mainnav{
+  width: 100%;
   display: flex;
-  padding: 1rem 2rem;
+  padding: 0.25rem 1rem;
   background: rgba(0, 0, 0, 0.6);
+  position: absolute;
 
 }
 
@@ -18,9 +20,6 @@
 @media screen and (min-width: 320px) {
   .logo img{
     width: 10rem;
-    display: block;
-    margin: 0 auto;
-    padding: 0;
   }
   .mainnav a{
     width: 100%;
@@ -34,6 +33,7 @@
   .mainnav{
     flex-flow: column nowrap;
 
+
     }
   .mainnav ul{
   width: 100%;
@@ -41,7 +41,6 @@
   list-style: none;
   flex-flow: column nowrap;
   text-align: center;
-  margin-top: 1rem;
   }
   .mainnav li{
   margin: 1rem 0;
@@ -51,9 +50,15 @@
 
 }
 /*END NAV*/
-p{
-
+.hero img {
+width: 100%;
+repeat: norepeat;
 }
+.hero h1{
+position: absolute;
+  }
+
+
 .about{
 
 
