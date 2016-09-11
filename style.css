@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Crete+Round|Poppins';
+@import 'https://fonts.googleapis.com/css?family=Crete+Round|Poppins|Oswald:300,400,700';
 
 *{
   margin:0;
@@ -15,6 +15,12 @@
   position: absolute;
 
 }
+
+
+
+
+
+/*end navtoggle*/
 
 
 @media screen and (min-width: 320px) {
@@ -45,33 +51,73 @@
   .mainnav li{
   margin: 1rem 0;
   letter-spacing: 3px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 100;
   font-size: 0.7rem;
 
 }
+
+
 /*END NAV*/
 .hero img {
 width: 100%;
-repeat: norepeat;
-}
-.hero h1{
-position: absolute;
-  }
-
-
-.about{
-
-
+height:275px;
 }
 
 
+p{
+font-family:'Crete Round', serif;
 
-
-
-
+}
+h1{
+font-family: 'Oswald', sans-serif;
+pins', sans-serif;
+font-size: 2rem;
+}
 
 
 }
+
+
+
+@media screen and (min-width: 700px) {
+
+
+.logo img {
+  width: 11.5rem;
+  margin: 0;
+}
+
+.mainnav{
+  flex-flow: row nowrap;
+}
+
+.mainnav a{
+  width: 60%;
+}
+
+.mainnav ul{
+width: 50%;
+flex-flow: row nowrap;
+align-self: flex-end;
+margin: 0;
+}
+
+
+.mainnav li{
+justify-content: space-around;
+align-items: flex-end;
+padding: 0 0 4px 0;
+width: 100%;
+
+}
+
+.hero img {
+width: 100%;
+height:auto;
+}
+}
+
 
 
 @media screen and (min-width: 900px) {
@@ -106,5 +152,10 @@ align-items: flex-end;
 padding: 0;
 width: 100%;
 
+}
+
+.hero img {
+width: 100%;
+height:auto;
 }
 }
