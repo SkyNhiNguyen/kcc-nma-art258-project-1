@@ -23,33 +23,44 @@ a{ text-decoration: none;
 
 
 
-/*end navtoggle*/
 
 
-@media screen and (min-width: 320px) {
+
+
+
+
+@media screen and (min-width: 320px){
   .logo img{
     width: 9rem;
   }
+ .mainnav a.logo{
+   width: 50%;
+ }
+
+
+/*//////NAV/////////////////////////////////////////*/
   .mainnav a{
     width: 100%;
     color: white;
     padding: 0.5rem;
   }
-  .mainnav li a:hover{
-    border:2px solid rgba(255, 255, 255, 0.9);
+
+  .mainnav li a:hover,  .mainnav li a.active {
+    border-top:1.5px solid rgba(255, 255, 255, 0.7);
+    border-bottom:1.5px solid rgba(255, 255, 255, 0.7);
     }
+
   .mainnav{
-    flex-flow: column nowrap;
     position: fixed;
-
-
     }
+
   .mainnav ul{
   width: 100%;
   display: flex;
   list-style: none;
   flex-flow: column nowrap;
-  text-align: center;
+  text-align: right;
+  margin-top: 3rem;
   }
   .mainnav li{
   margin: 1rem 0 1.5rem 0;
@@ -59,6 +70,15 @@ a{ text-decoration: none;
   font-size: 0.6rem;
 
 }
+
+
+/*navtoggle---------------------*/
+
+
+
+/*navtoggle---------------------*/
+
+
 
 
 /*END NAV*/
@@ -200,21 +220,24 @@ padding-bottom: 1rem;
 
 }
 
+/*////////////////////////////////////////////////////////////////////////////*/
 
+@media screen and (min-width: 650px) {
 
-@media screen and (min-width: 700px) {
-
-
+a.nav-toggle {
+  display: none;
+}
 
 .mainnav{
   flex-flow: row nowrap;
 }
 
-.mainnav a{
-  width: 60%;
+.mainnav a.logo{
+  width: 65%;
 }
 
 .mainnav ul{
+display: flex;
 width: 50%;
 flex-flow: row nowrap;
 align-self: flex-end;
@@ -277,11 +300,7 @@ footer{
   flex-flow: row nowrap;
 }
 
-.mainnav a{
-  width: 60%;
 
-
-}
 
 .mainnav ul{
 width: 40%;
