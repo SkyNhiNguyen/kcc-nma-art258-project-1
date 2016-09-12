@@ -75,20 +75,7 @@ height:278px;
 
 
 /*MAIN*/
-.social-icon{
-  border:none;
-  display: flex;
-  flex-flow: column ;
-  position: fixed;
-}
 
-.social-icon a{
-  font-size:2rem;
-  color: rgba(255,255,255,0.5);
-  line-height: 4rem;
-
-
-}
 main {
   margin:0;
   background: black;
@@ -109,12 +96,7 @@ font-size: 2rem;
 
 
 
-.social-icon{
-  border:none;
-  display: flex;
-  flex-flow: column ;
-  position: fixed;
-}
+
 
 /*/////////////////FOOTER/////////////////////*/
 
@@ -129,7 +111,7 @@ footer{
 
 footer h3{
   font-family: 'Oswald', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 100;
   line-height: 3rem;
 }
@@ -137,53 +119,78 @@ footer h3{
 footer h4{
   font-family:'Crete Round', serif;
   line-height: 1.5rem;
-  font-size: 18px;
+  font-size: 14px;
+  letter-spacing: 1px;
 }
+
+
 form{
-  display: flex;
-  flex-flow:row nowrap;
-  align-items: center;
+padding-bottom: 1rem;
 }
 .newsletter-input{
-  width: 60%;
-  height: 2.75rem;
+  width: 13rem;
+  height: 2rem;
   border-radius: 10px;
   border-bottom:  border: 3px solid white;
   background: transparent;
 
+
 }
-form a{
-  width: 20%;
+.newsletter a{
   font-family:'Crete Round', serif;
   line-height: 1.5rem;
-  font-size: 18px;
-  margin-left: 2rem;
+  font-size: 16px;
   color: white;
-  border: 3px solid white;
+  border: 2px solid white;
   border-radius: 10px;
-  padding:0.5rem;
+  padding: 0.25rem 1rem;
   text-align: center;
 }
 
-form a:hover{
+.newsletter a:hover{
   border: none;
+  color:  rgba(245,165,8,0.8);
+
 
 }
-
-
-
 
 
 .location{
-  margin-top:1.5rem;
+  margin:1.5rem 0 0.5rem;
 }
+
+
+.social-icon{
+  border-top:1px solid rgba(255, 255, 255, 0.5);
+  border-bottom:1px solid rgba(255, 255, 255, 0.5);
+  text-align: center;
+  margin: 1rem 0;
+  padding: 0.5rem;
+}
+.social-icon a{
+  font-size:1.5rem;
+  color: rgba(245,165,8,0.8);
+  line-height: 2rem;
+  padding: 0.5rem ;
+}
+
+.social-icon a:hover{
+  color:rgba(255, 255, 255, 0.5);
+}
+
+
 
 .copyright{
-  font-size: 0.75rem;
+  font-size: 0.5rem;
+  color:rgba(255, 255, 255, 0.25);
   letter-spacing: 2px;
-  text-align: center;
+  text-align: right;
+  background: black;
+  padding:0.25rem 0;
 }
-
+.copyright p{
+  padding-right:1rem;
+}
 
 
 
@@ -228,20 +235,31 @@ width: 100%;
 height:auto;
 }
 /*/////////////////FOOTER/////////////////////*/
-input{
-  width:50%;
+
+footer{
+  flex-flow: row wrap;
+
 }
-form a{
-  width : 15%;
+
+.newsletter{
+  width: 45%;
+
+}
+
+.location{
+  margin:0;
+  padding: 0;
+  width: 25%;
 }
 
 
+.social-icon{
+  width: 30%;
+  margin: 3rem 0;
+  border: none;
 
 
-
-
-
-
+}
 
 
 
