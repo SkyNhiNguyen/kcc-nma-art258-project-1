@@ -216,7 +216,14 @@ pins', sans-serif;
 }
 
 
-
+.gif img {
+  display: flex;
+max-width:100%;
+margin: 0 auto;
+}
+.gif{
+  background: #e2bd22;
+}
 
 /*/////////////////FOOTER/////////////////////*/
 
@@ -390,6 +397,14 @@ font-size: 1rem;}
 .product h1{
   font-size: 4rem;
 }
+
+
+
+  .gif img {
+
+  max-width:80%;
+
+}
 /*/////////////////FOOTER/////////////////////*/
 
 footer{
@@ -496,7 +511,7 @@ p{font-size: 1.125rem;}
 
 .product h1{
   font-size: 4rem;
-  width: 35%;
+  width: 50%;
   align-self: flex-start;
   padding: 1rem 7rem;
 
@@ -505,11 +520,16 @@ p{font-size: 1.125rem;}
   width: 60%;
   align-self: center;
   justify-content: center;
-  margin: -15rem 0 -0.75rem 346px;
+  margin: -13rem 0 -0.75rem 346px;
   padding: 1rem 2rem 2rem 0;
   border-top: 2px solid white;
   background: none;
 
+}
+/*-------------------gif----------------*/
 
+  .gif img {
+
+  max-width:35%;
 
 }
