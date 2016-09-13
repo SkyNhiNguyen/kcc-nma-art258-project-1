@@ -1,10 +1,8 @@
-
-// ANIMATED NAV///////////////////////////////
 $(function() {
   var $navToggle = $('.nav-toggle');
   var $mainNavUl = $('.mainnav ul');
   var $window = $(window);
-  var mobileBreakpoint = 768;
+  var mobileBreakpoint = 650;
 
   $navToggle.on('click', function() {
     $mainNavUl.slideToggle();
@@ -17,3 +15,4 @@ $(function() {
       $navToggle.removeClass('active');
     }
   });
+});
