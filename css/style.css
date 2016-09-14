@@ -108,14 +108,6 @@ margin-top: 5rem;
 
 
 
-  /*.mainnav ul{
-  width: 100%;
-  display: flex;
-  list-style: none;
-  flex-flow: column nowrap;
-  text-align: right;
-  margin-top: 3rem;
-  }*/
   .mainnav li{
   margin: 1rem 0 1.5rem 0;
   letter-spacing: 3px;
@@ -137,7 +129,6 @@ margin-top: 5rem;
 
 
 
-/*navtoggle---------------------*/
 
 
 
@@ -155,12 +146,9 @@ margin-top: 5rem;
 /*Image*/
 
 img{
-  display: block;
+display: block;
 width: 100%;
 }
-
-
-
 
 
 
@@ -423,11 +411,18 @@ font-size: 1rem;}
    font-size: 1.5rem;
  }
 
+ .cat1 a{
+     font-size: 1rem;
+
+   }
 
 /*-------------------Product----------------*/
 .cat2 h2{
    font-size: 1.5rem;
  }
+ .cat1 a{
+     font-size: 1rem;
+   }
 /*/////////////////FOOTER/////////////////////*/
 
 footer{
@@ -506,12 +501,17 @@ align-self: center;}
    font-size: 2.5rem;
  }
 
+  .cat1 a{
+      font-size: 1.5rem;
+    }
 
 /*-------------------Product----------------*/
 .cat2 h2{
    font-size: 2.5rem;
  }
-
+ .cat2 a{
+     font-size: 1.5rem;
+   }
 /*-------------------shop----------------*/
 
 
