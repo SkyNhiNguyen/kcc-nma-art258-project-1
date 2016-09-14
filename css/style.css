@@ -207,14 +207,14 @@ pins', sans-serif;
 .product img{
   display: flex;
   height: 300px;
-  margin-top: 1rem;
+  margin: 1rem 0 1rem 2rem;
 
 }
 .product h1{
   font-size: 3rem;
   align-self: center;
   color: white;
-  padding-left: 15px;
+
   width: 50%;
 
 }
@@ -483,7 +483,7 @@ p{font-size: 1.125rem;}
 
 }
 .about p{
-  width: 50%;
+  width: 60%;
   align-self: center;
   justify-content: center;
   margin: -15rem 0 -0.75rem 346px;
@@ -509,14 +509,14 @@ p{font-size: 1.125rem;}
   font-size: 4rem;
   width: 50%;
   align-self: flex-start;
-  padding: 1rem 7rem;
+  padding: 1rem 5rem;
 
 }
 .product p{
   width: 60%;
   align-self: center;
   justify-content: center;
-  margin: -13rem 0 -0.75rem 346px;
+  margin: -14rem 0 -0.75rem 346px;
   padding: 1rem 2rem 2rem 0;
   border-top: 2px solid white;
   background: none;
