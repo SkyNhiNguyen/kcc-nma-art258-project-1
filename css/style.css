@@ -143,11 +143,12 @@ margin-top: 5rem;
 
 
 /*VIDEO*/
-.hero{
-  background: black;
-}
-.hero img {
-width: 100%;
+.hero video{
+  background: transparent;
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  z-index: -1;
 /*height:278px;*/
 }
 
