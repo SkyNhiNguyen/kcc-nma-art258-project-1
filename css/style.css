@@ -156,7 +156,6 @@ margin-top: 5rem;
 
 img{
   display: block;
-margin: 0 auto;
 width: 100%;
 }
 
@@ -177,24 +176,22 @@ section h1{
   font-size: 2rem;
   align-self: center;
   width: 100%;
+  font-family: 'Oswald', sans-serif;
+  pins', sans-serif;
+  color:#1F2124;
 }
+
 p{
 font-family:'Crete Round', serif;
 padding:0.5rem 0;
-font-size: 0.80rem;
+font-size: 0.7rem;
 color:#1F2124;
-}
-h1{
-font-family: 'Oswald', sans-serif;
-pins', sans-serif;
-color:#1F2124;
-
 }
 
 /*-------------------ABOUT----------------*/
 .cat1{
-  background-image: url(../images/bg2.png);
-  padding:15% 15%;
+    background-image: url(../images/bg1-copy.png);
+      padding:15% 15%;
   width:100%;
   background-size: cover;
   font-family:'Crete Round', serif;
@@ -204,8 +201,8 @@ color:#1F2124;
 
 
 .cat1 h2{
-   font-size: 1.75rem;
-   margin-bottom: 2rem;
+   font-size: 1.25rem;
+   margin-bottom: 1.5rem;
  }
 .cat1 a{
     color: white;
@@ -225,19 +222,19 @@ color:#1F2124;
 
 
   .cat2{
-    background-image: url(../images/lemon.png);
-    padding:36% 15% 43px;
+    background-image: url(../images/bg2.png);
+    padding:15% 15%;
     width:100%;
     background-size: cover;
     font-family:'Crete Round', serif;
     color: white;
-    text-align: right;
+    text-align: center;
   }
 
 
   .cat2 h2{
-     font-size: 1.75rem;
-     margin-bottom: 2rem;
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
    }
   .cat2 a{
       color: white;
@@ -253,10 +250,12 @@ color:#1F2124;
 
 
 /*-----------------shop---------------*/
+
+
 .shop{
 border-top: 2px solid black;
 border-bottom: 2px solid black;
-
+margin: 1rem;
 }
 .shop img{
     width: 93%;
@@ -420,11 +419,15 @@ a.nav-toggle{
 p{
 font-size: 1rem;}
 /*-------------------ABOUT----------------*/
-
+.cat1 h2{
+   font-size: 1.5rem;
+ }
 
 
 /*-------------------Product----------------*/
-
+.cat2 h2{
+   font-size: 1.5rem;
+ }
 /*/////////////////FOOTER/////////////////////*/
 
 footer{
@@ -463,13 +466,6 @@ footer{
 
 @media screen and (min-width: 900px) {
 
-
-.mainnav{
-  flex-flow: row nowrap;
-}
-
-
-
 .mainnav ul{
 width: 40%;
 flex-flow: row nowrap;
@@ -491,18 +487,32 @@ width: 100%;
 height:auto;
 }
 
-p{font-size: 1.125rem;}
+
+
+section{
+  justify-content: space-around;
+}
+section h1{
+  font-size: 4rem;
+  width: 25%;
+}
+
+p{font-size: 1.125rem;
+width: 60%;
+align-self: center;}
 /*-------------------about---------------------*/
 
-
+.cat1 h2{
+   font-size: 2.5rem;
+ }
 
 
 /*-------------------Product----------------*/
+.cat2 h2{
+   font-size: 2.5rem;
+ }
 
-/*-------------------gif----------------*/
+/*-------------------shop----------------*/
 
-  .gif img {
-
-  max-width:35%;
 
 }
