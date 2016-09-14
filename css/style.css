@@ -145,12 +145,13 @@ margin-top: 5rem;
 /*VIDEO*/
 .hero video{
   background: transparent;
-  max-width: 100%;
-  max-height: 100%;
-  width: 100%;
   z-index: -1;
+  width: 100%;
+  height:auto;
+  display: block;
+  }
 /*height:278px;*/
-}
+
 
 
 
@@ -183,7 +184,7 @@ pins', sans-serif;
 .about{
   display: flex;
   flex-flow: row wrap;
-  background: #ff7e47;
+  background: #e44a1a;
 }
 .about img{
   max-width: 100%;
@@ -193,7 +194,7 @@ pins', sans-serif;
 .about h1{
   font-size: 3rem;
   align-self: center;
-  width: 60%;
+  width: 50%;
   color: white;
 
 }
@@ -201,7 +202,7 @@ pins', sans-serif;
 .product{
   display: flex;
   flex-flow: row wrap;
-  background: #87a833;
+  background: #88a434;
 }
 .product img{
   display: flex;
@@ -214,6 +215,8 @@ pins', sans-serif;
   align-self: center;
   color: white;
   padding-left: 15px;
+  width: 50%;
+
 }
 
 
@@ -223,7 +226,8 @@ max-width:100%;
 margin: 0 auto;
 }
 .gif{
-  background: #e2bd22;
+  background: black;
+  padding:1rem;
 }
 
 /*/////////////////FOOTER/////////////////////*/
@@ -331,9 +335,6 @@ padding-bottom: 1rem;
 
 @media screen and (min-width: 650px) {
 
-a.nav-toggle {
-  display: none;
-}
 
 .mainnav{
   flex-flow: row nowrap;
@@ -360,21 +361,17 @@ width: 100%;
 
 }
 
-/*navtoggle---------------------*/
-a.nav-toggle {
-   display: none;
-
- }
-
-
-/*navtoggle---------------------*/
-
-
-/*//////////////////////////////////////////////////*/
-.hero img {
-width: 100%;
-height:auto;
+a.nav-toggle{
+  display: none;
 }
+
+
+
+
+
+
+/*//////////////////CONTENT////////////////////////////////*/
+
 p{
 font-size: 1rem;}
 /*-------------------ABOUT----------------*/
@@ -481,14 +478,12 @@ p{font-size: 1.125rem;}
   height: 500px;
 }
 .about h1{
-  font-size: 4rem;
-  width: 30%;
   align-self: flex-start;
   padding: 1rem 5rem;
 
 }
 .about p{
-  width: 60%;
+  width: 50%;
   align-self: center;
   justify-content: center;
   margin: -15rem 0 -0.75rem 346px;
